@@ -13,3 +13,5 @@ radius = 20;
 area = PI * radius * radius;
 radiusOutput.innerHTML = radius;
 areaOutput.innerHTML = area;
+
+reveal.textContent = "🎉 Congratulations! You are having a <strong>${babygender}</strong>!";

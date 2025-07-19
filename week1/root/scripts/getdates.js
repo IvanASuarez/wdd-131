@@ -9,5 +9,4 @@ full.innerHTML = `
     <span class="label">Last Modification:</span>
     <span class="date">${formattedDate}</span>`;
 
-year.innerHTML = 
-    `<span id="year">${today.getFullYear()}</span>`;
+year.textContent = today.getFullYear();
