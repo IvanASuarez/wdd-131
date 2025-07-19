@@ -18,7 +18,7 @@ header {
     align-items: center;
 	padding: 20px;
     background-color: #F2DD6E;
-    color: #435058;
+    color: #0C0F0A;
     
 
 }
@@ -38,7 +38,7 @@ h1 {
     font-size: 2rem;
     font-weight: 700;
     padding: 0.5rem 0.75rem;
-    color: #435058;
+    color: #0C0F0A;
 }
 
 #menu::after {
@@ -75,7 +75,7 @@ h1 {
     display: block;
     padding: 1rem;
     text-decoration: none;
-    color: #435058;
+    color: #0C0F0A;
     font-size: 1.5rem;
 }
 
@@ -88,7 +88,7 @@ h1 {
     width: 100%;
     padding: 1rem;
     font-size: 1.5rem;
-    color: #435058;
+    color: #0C0F0A;
     text-decoration: none;
 }
 
@@ -109,7 +109,7 @@ nav ul {
 
 nav a {
 	display:block;
-	color: #435058;
+	color: #0C0F0A;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -135,7 +135,7 @@ main {
 main h1{
     font-size: 3rem;
     text-align: center;
-    color: #435058;
+    color: #0C0F0A;
 }
 
 section{
@@ -148,7 +148,7 @@ section{
 
 .temple-item {
     text-align: center;
-    color: #435058;
+    color: #0C0F0A;
 }
 
 .temple-item .img-container {
@@ -174,7 +174,7 @@ section{
 .footer {
   grid-area: footer;
   background-color: #F2DD6E;
-  color: #435058;
+  color: #0C0F0A;
   text-align: center;
   padding: 3em;
   font-size: 2em;
@@ -186,5 +186,5 @@ section{
   justify-content: center;
   align-items: center; 
   gap: 0.5em;
-  color: #435058;
+  color: #0C0F0A;
 }
