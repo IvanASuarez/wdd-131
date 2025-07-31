@@ -1,0 +1,24 @@
+
+@media (min-width: 1024px) {
+ main{
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, auto);
+ }
+
+  .background-image img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .data {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    padding: 1rem;
+    background-color: blue;
+  }
+
+
+  
+}

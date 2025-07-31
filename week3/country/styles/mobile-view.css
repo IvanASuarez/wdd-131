@@ -1,0 +1,94 @@
+
+header h1 {
+    background-color: #FFCD00;
+    color: #011638;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 4rem;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.header::after{
+    content:"";
+    display: block;
+    background-color: #011638;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.background-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.background-image::after{
+  content:"";
+  display: block;
+  background-color: #011638;
+  padding: 0.8rem 0;
+  width: 100%;
+}
+
+.data{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: #F9DC5C;
+  font-size: 2rem;
+  line-height: 1;
+  color: #011638;
+  
+}
+
+.data h2{
+  font-family: "Lobster", sans-serif;
+  font-size: 4rem;
+  color: #011638;
+  margin-bottom: 1rem;
+}
+
+.weather {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  background-color: #F9DC5C;
+  font-size: 2rem;
+  line-height: 1;
+  color: #011638;
+}
+
+.weather h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 4rem;
+  color: #011638;
+  margin-bottom: 1rem;
+}
+
+.footer {
+        display: block;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        background-color:#FFCD00;
+        color: #011638;
+        padding: 1rem 0;
+   }
+
+  .footer p {
+        margin: 0;
+        font-size: 2.5rem;
+   }
