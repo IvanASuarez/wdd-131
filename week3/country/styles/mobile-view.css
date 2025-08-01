@@ -20,7 +20,7 @@ header h1 {
 }
 
 main{
-  display: flex;
+  display: inline-grid;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
@@ -44,6 +44,7 @@ main{
 .data{
   display: block;
   width: 100%;
+  max-width: 100%;
   text-align: center;
   margin: auto;
   background-color: #F9DC5C;
@@ -63,6 +64,7 @@ main{
 .weather {
   display: block;
   width: 100%;
+  max-width: 100%;
   text-align: center;
   margin: auto;
   background-color: #F9DC5C;
@@ -81,11 +83,13 @@ main{
 .footer {
         display: block;
         width: 100%;
+        max-width: 100%;
         text-align: center;
         white-space: nowrap;
         background-color:#FFCD00;
         color: #011638;
         padding: 1rem 0;
+
    }
 
   .footer p {
