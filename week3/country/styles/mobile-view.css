@@ -1,13 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-header h1 {
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+ }
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+}
+
+.header h1 {
     background-color: #FFCD00;
     color: #011638;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    padding: 4rem;
-    font-size: 4rem;
+    padding: 1rem;
+    font-size: 2.5rem;
     margin: 0;
 }
 
@@ -20,7 +46,7 @@ header h1 {
 }
 
 main{
-  display: inline-grid;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
@@ -46,19 +72,18 @@ main{
   width: 100%;
   max-width: 100%;
   text-align: center;
-  margin: auto;
+  margin: 0;
   background-color: #F9DC5C;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.5;
   color: #011638;
-  
 }
 
 .data h2{
   font-family: "Lobster", sans-serif;
   font-size: 4rem;
   color: #011638;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .weather {
@@ -69,7 +94,7 @@ main{
   margin: auto;
   background-color: #F9DC5C;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.5;
   color: #011638;
 }
 
@@ -77,22 +102,23 @@ main{
   font-family: "Lobster", sans-serif;
   font-size: 4rem;
   color: #011638;
-  margin-bottom: 1rem;
+  margin: 2rem;
 }
 
 .footer {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-        text-align: center;
-        white-space: nowrap;
-        background-color:#FFCD00;
-        color: #011638;
-        padding: 1rem 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    background-color:#FFCD00;
+    color: #011638;
+    padding: 1rem 0;
 
-   }
+}
 
-  .footer p {
-        margin: 0;
-        font-size: 2.5rem;
-   }
+.footer p {
+    margin: 0;
+    font-size: 2.5rem;
+}
