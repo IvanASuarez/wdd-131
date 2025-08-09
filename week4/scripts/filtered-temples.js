@@ -139,11 +139,14 @@ function createTempleCard(templesArray){
             <p><strong>Location: </strong> ${temple.location}</p>
             <p><strong>Dedicated: </strong> ${temple.dedicated}</p>
             <p><strong>Area:</strong> ${temple.area} sq ft</p>
-            <img src="${temple.imageUrl}" 
-            alt="Image of ${temple.templeName}" 
-            loading="lazy" 
-            width="350">
-        `;
+            <img 
+              src="${temple.imageUrl}" 
+              srcset="${temple.imageUrl}?w=350 350w, ${temple.imageUrl}?w=700 700w" 
+              sizes="(max-width: 600px) 350px, 700px"
+              alt="Image of ${temple.templeName}" 
+              loading="lazy" 
+              width="350">
+            `;
 
         container.appendChild(card);
     })
