@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+    header {
+	    flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #menu {
+        display: none; 
+    }
+
+    .navigation {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        gap:1rem;
+        width: auto;
+        transition: all 0.3s ease;
+    }
+
+    .navigation li{
+        display: block;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation a{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+	
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        text-align: center;
+    }
+
+    .templesContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer {
+        flex-direction: column;  
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+   }
+
+  .footer p {
+        margin: 0;
+   }
+}
+
+@media (max-width: 900px) {
+    #templesContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-content p {
+        margin: 0 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    #templesContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-content p {
+        margin: 0 1em;
+    }
+}
+
+
