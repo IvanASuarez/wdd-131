@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center; 
+}
+
+header h1{
+  justify-content: center;
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+header p{
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#sitePurpose h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+#sitePurpose p{
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#objectives h2{
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+#objectives li{
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+#Scenarios h2{
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+#Scenarios li{
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   
+}
+
+.color{
+  font-family: "Lobster", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+
+.typo{
+  font-family: "Lobster", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+
+#colorSchema{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  column-gap:10px;
+  row-gap: 15px;  
+  width: 320px;   
+}
+
+.colorBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  font-family: "Tik Tok Sans", sans-serif;
+}
+
+#typography{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+}
+
+#colorSchema, #typography {
+    margin: 0 auto; 
+}
+
+.letter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#wireframe p{
+  font-family: "Delius", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  justify-content: center;
+}
