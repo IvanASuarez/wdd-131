@@ -5,6 +5,7 @@ body {
     align-items: center;
     margin: 0;
     text-align: center; 
+    background-color: #F7F4EA;
 }
 
 header h1{
@@ -12,24 +13,28 @@ header h1{
   font-family: "Lobster", sans-serif;
   font-size: 3rem;
   font-style: normal;
+  color: #F5B700;
 }
 
 header p{
   font-family: "Delius", sans-serif;
-  font-weight: 400;
+  font-size: 2rem;
   font-style: normal;
+  color: #035E7B;
 }
 
 #sitePurpose h2 {
   font-family: "Lobster", sans-serif;
   font-size: 3rem;
   font-style: normal;
+  color: #F5B700;
 }
 
 #sitePurpose p{
   font-family: "Delius", sans-serif;
-  font-weight: 400;
+  font-size: 2rem;
   font-style: normal;
+  color: #035E7B;
 }
 
 
@@ -37,12 +42,14 @@ header p{
   font-family: "Lobster", sans-serif;
   font-size: 3rem;
   font-style: normal;
+  color: #F5B700;;
 }
 
 #objectives li{
   font-family: "Delius", sans-serif;
-  font-weight: 400;
+  font-size: 1.5rem;
   font-style: normal;
+  color: #035E7B
   
 }
 
@@ -50,12 +57,14 @@ header p{
   font-family: "Lobster", sans-serif;
   font-size: 3rem;
   font-style: normal;
+  color: #F5B700;;
 }
 
 #Scenarios li{
   font-family: "Delius", sans-serif;
-  font-weight: 400;
+  font-size: 2rem;
   font-style: normal;
+  color:#035E7B
    
 }
 
@@ -63,12 +72,14 @@ header p{
   font-family: "Lobster", sans-serif;
   font-size: 2.5rem;
   font-style: normal;
+  color: #F5B700;;
 }
 
 .typo{
   font-family: "Lobster", sans-serif;
   font-size: 2.5rem;
   font-style: normal;
+  color: #F5B700;;
 }
 
 #colorSchema{
@@ -102,6 +113,8 @@ header p{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #035E7B;
+  font-size: 1.5rem;
 }
 
 #wireframe p{
@@ -109,4 +122,6 @@ header p{
   font-size: 2rem;
   font-style: normal;
   justify-content: center;
+  color: #035E7B ;
+
 }
